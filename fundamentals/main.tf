@@ -1,8 +1,8 @@
 resource "aws_s3_bucket" "this" {
-  bucket = "my-tf-fundamentals-bucket"
+  bucket = "my-tf-state-bucket"
 
   tags = {
-    Name        = "my-tf-fundamentals-bucket"
+    Name        = "my-tf-state-bucket"
     Environment = "Mentorship"
   }
 }
