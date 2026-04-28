@@ -1,5 +1,6 @@
 locals {
   # Naming convention
+  
   resource_name = "${var.project_name}-${var.environment}"
 
   # Process the subnet list
