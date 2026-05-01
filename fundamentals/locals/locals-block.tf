@@ -49,3 +49,5 @@ locals {
     cidrsubnet(local.vpc_cidr, 8, i)
   ]
 }
+
+
